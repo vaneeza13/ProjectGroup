@@ -21,6 +21,7 @@ public class Regnemaskine
     {
         int sum = a + b;
         return sum;
+
     }
 }
 
