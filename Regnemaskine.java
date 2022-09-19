@@ -23,5 +23,10 @@ public class Regnemaskine
         return sum;
 
     }
-}
+    public static int sum(int a, int b)
+    {
+        int sum = a - b;
+        return sum;
+
+    }
 
