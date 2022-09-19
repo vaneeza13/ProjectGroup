@@ -1,8 +1,6 @@
 import java.util.Scanner;
-public class Regnemaskine
-{
-    public static void main(String args[])
-    {
+public class Regnemaskine {
+    public static void main(String args[]) {
         int x, y, sum;
 
         Scanner sc = new Scanner(System.in);
@@ -16,17 +14,13 @@ public class Regnemaskine
         sum = sum(x, y);
         System.out.println("The sum of two numbers x and y is: " + sum);
     }
+
     //method that calculates the sum
-    public static int sum(int a, int b)
-    {
+    public static int sum(int a, int b) {
         int sum = a + b;
         return sum;
 
     }
-    public static int sum(int a, int b)
-    {
-        int sum = a - b;
-        return sum;
 
-    }
+}
 
